@@ -73,10 +73,6 @@ class _LibrosState extends State<Libros> {
               child: Container(
                 height: 180,
                 width: 130,
-                child: Image.network(
-                  libro.author,
-                  fit: BoxFit.fill,
-                ),
               ),
             ),
             SizedBox(
